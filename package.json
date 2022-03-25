@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build && next export && cp CNAME ./out",
     "start": "next start",
     "lint": "next lint",
     "deploy": "gh-pages -d out"
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Kasvunmahdollistajat/kasvunmahdollistajat-fi/issues"
   },
-  "homepage": "https://kasvunmahdollistajat.github.io/kasvunmahdollistajat-fi/",
+  "homepage": "https://kasvunmahdollistajat.fi",
   "packageManager": "yarn@3.2.0",
   "dependencies": {
     "@fontsource/raleway": "^4.5.5",

@@ -1,2 +1,1 @@
-export const prefix =
-  process.env.NODE_ENV === "development" ? "" : "/kasvunmahdollistajat-fi";
+export const prefix = process.env.NODE_ENV === "development" ? "" : "";
