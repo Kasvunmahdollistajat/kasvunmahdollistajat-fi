@@ -1,5 +1,16 @@
-import styles from "../../styles/Footer.module.scss";
-
-const Footer = () => <div className={styles.main}>Footer</div>;
+const Footer = () => (
+  <div
+    style={{
+      textAlign: "center",
+      borderTop: "1px solid lightgrey",
+      padding: "2rem",
+      display: "flex",
+      flexDirection: "column",
+    }}
+  >
+    <span>&copy; 2022 Kasvun mahdollistajat Oy</span>
+    <span>2745834-5</span>
+  </div>
+);
 
 export default Footer;

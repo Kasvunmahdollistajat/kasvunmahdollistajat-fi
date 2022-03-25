@@ -4,8 +4,8 @@ const prefix =
 
 const nextConfig = {
   reactStrictMode: true,
-  basePath: prefix,
-  assetPrefix: prefix,
+  basePath: "/kasvunmahdollistajat-fi",
+  assetPrefix: `/kasvunmahdollistajat-fi/`,
 };
 
 module.exports = nextConfig;

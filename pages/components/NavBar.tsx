@@ -1,11 +1,8 @@
-import Image from "next/image";
-
-import logo from "../../public/Logo.png";
-import styles from "../../styles/NavBar.module.scss";
+import { prefix } from "../../utils/prefix";
 
 const NavBar = () => (
-  <div className={styles.navBar}>
-    <Image src={logo} alt="logo" />
+  <div style={{ height: "4.5rem", padding: "0 1rem" }}>
+    <img style={{ height: "4rem" }} src={`${prefix}/Logo.png`} alt="logo" />
   </div>
 );
 

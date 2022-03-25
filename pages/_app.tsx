@@ -3,10 +3,10 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { prefix } from "../utils/prefix";
 
-import "../styles/main.scss";
+import "@fontsource/raleway";
 
 const App = ({ Component, pageProps }) => (
-  <div className="main">
+  <div style={{ fontFamily: "Raleway" }}>
     <Head>
       <title>Kasvun mahdollistajat</title>
       <link rel="shortcut icon" href={`${prefix}/favicon.ico`} />
