@@ -1,5 +1,4 @@
 import styles from "./index.module.scss";
-import { prefix } from "../utils/prefix";
 
 const Home = () => {
   return (
@@ -7,7 +6,7 @@ const Home = () => {
       <div style={{ height: "90vh", textAlign: "center" }}>
         <img
           style={{ height: "100%", width: "100%" }}
-          src={`${prefix}/Kivet.jpg`}
+          src="/Kivet.jpg"
           alt=""
         />
         <div

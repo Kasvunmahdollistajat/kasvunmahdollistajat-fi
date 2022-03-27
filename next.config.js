@@ -4,6 +4,7 @@ const prefix =
 
 const nextConfig = {
   reactStrictMode: true,
+  assetPrefix: "/",
 };
 
 module.exports = nextConfig;
