@@ -6,7 +6,7 @@ import "@fontsource/raleway";
 import "./main.scss";
 
 const App = ({ Component, pageProps }) => (
-  <div style={{ fontFamily: "Raleway" }}>
+  <div className="main">
     <Head>
       <title>Kasvun mahdollistajat</title>
       <link rel="shortcut icon" href="/favicon.ico" />

@@ -5,10 +5,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && cp CNAME ./out",
+    "build": "next build && next export && cp CNAME ./out && touch ./out/.nojekyll",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out -t"
   },
   "repository": {
     "type": "git",
