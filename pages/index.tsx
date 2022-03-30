@@ -1,20 +1,13 @@
+import Intro from "./home/intro";
+import Jumbo from "./home/jumbo";
 import styles from "./index.module.scss";
 
 const Home = () => {
   return (
     <>
-      <div className={styles.jumbo}>
-        <div className={styles.jumboWrapper}>
-          <div>
-            <h1>KASVUN MAHDOLLISTAJAT</h1>
-            <h2>
-              Autamme organisaatioita onnistumaan ja ihmisiä kasvamaan
-              johtajuudessa
-            </h2>
-          </div>
-        </div>
-      </div>
+      <Jumbo />
       <div className={styles.content}>
+        <Intro />
         <h3>Miten voin olla sinulle avuksi? - Ota yhteyttä!</h3>
         <span>
           Päivi Vuorimaa - <strong>paivi.vuorimaa@gmail.com</strong>

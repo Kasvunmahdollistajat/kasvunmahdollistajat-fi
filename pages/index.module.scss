@@ -1,74 +1,23 @@
-.jumbo {
-  height: calc(100vh - 4.5rem); // Keep in sync with NavBar height
-  text-align: center;
-  background-image: url("/Kivet.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
-.jumboWrapper {
-  background-color: rgba(0, 0, 0, 0.3);
-  width: 100%;
-  color: white;
-  height: 100%;
-
-  div {
-    padding: 2rem;
-  }
-
-  h1 {
-    font-size: 5rem;
-    margin: 0;
-    padding-top: 25vh;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-}
+@use "_variables" as *;
 
 .content {
   text-align: center;
-
-  padding: 6rem;
+  width: 60%;
+  margin-left: 20%;
+  padding: 2rem 0;
 }
 
-@media (max-width: 1400px) {
-  .jumboWrapper {
-    div {
-      padding: 1rem;
-    }
-    h1 {
-      font-size: 4rem;
-    }
-
-    h2 {
-      font-size: 1.5rem;
-    }
+@media (max-width: $tablet) {
+  .content {
+    width: 80%;
+    margin-left: 10%;
+    padding: 1rem 0;
   }
 }
 
-@media (max-width: 900px) {
-  .jumboWrapper {
-    h1 {
-      font-size: 3rem;
-    }
-
-    h2 {
-      font-size: 1.2rem;
-    }
-  }
-}
-
-@media (max-width: 600px) {
-  .jumboWrapper {
-    h1 {
-      font-size: 2rem;
-    }
-
-    h2 {
-      font-size: 1rem;
-    }
+@media (max-width: $phone) {
+  .content {
+    width: 90%;
+    margin-left: 5%;
   }
 }
