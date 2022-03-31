@@ -1,7 +1,5 @@
-import styles from "./intro.module.scss";
-
 const Intro = () => (
-  <div className={styles.intro}>
+  <div>
     <p>
       Kasvun mahdollistajat Oy on palvelubisneksen ja johtamisen kehittäjä. Saat
       käyttöösi laajan osaamisemme, joka pohjautuu monipuoliseen käytännön
@@ -24,6 +22,18 @@ const Intro = () => (
     <p>
       Kasvun mahdollistajat Oy on kuin luottoystäväsi: luottamuksesi arvoinen
       briljantti ammattilainen.
+    </p>
+    <p>
+      Hyödynnä Business Finlandin innovaatioseteli: Kasvun Mahdollistajat Oy on
+      hyväksytty innovaatiosetelin palveluntuottaja. Hae innovaatioseteliä{" "}
+      <a
+        href="https://www.businessfinland.fi/suomalaisille-asiakkaille/palvelut/rahoitus/tutkimus-ja-kehitysrahoitus/innovaatioseteli/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        täältä
+      </a>
+      .
     </p>
   </div>
 );

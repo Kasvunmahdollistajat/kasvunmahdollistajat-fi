@@ -1,0 +1,59 @@
+@use "../_variables" as *;
+
+.services {
+  ul li {
+    padding: 0.25rem 0;
+    text-align: left;
+    margin-left: 15%;
+  }
+}
+
+.serviceWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 150%;
+  margin-left: -25%;
+}
+
+.serviceBox {
+  color: white;
+  background-color: $main-color;
+  margin: 0.8rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  padding: 1.5rem 0.5rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  min-width: 14rem;
+  max-width: 14rem;
+}
+
+@media (max-width: 111rem) {
+  .serviceWrapper {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 88rem) {
+  .serviceWrapper {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: $tablet) {
+  .services ul li {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: $phone) {
+  .services ul li {
+    margin-left: 0;
+  }
+}

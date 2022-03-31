@@ -1,7 +1,15 @@
+@use "_variables" as *;
+
 body {
   margin: 0;
 }
 
 .main {
   font-family: Raleway, sans-serif;
+
+  h1,
+  h2 {
+    color: $main-color;
+    font-weight: bold;
+  }
 }
