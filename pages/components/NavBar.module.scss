@@ -13,6 +13,10 @@
   }
 }
 
+.linkWrapper.hidden {
+  display: block; // Do not hide in desktop view
+}
+
 .linkWrapper {
   padding: 1.75rem 1rem;
 
