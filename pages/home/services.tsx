@@ -18,7 +18,7 @@ const serviceList = [
 ];
 
 const Services = () => (
-  <div className={styles.services}>
+  <div className={styles.services} id="palvelut">
     <h2>PALVELUT</h2>
     <h4>Autamme sinua ja organisaatiotasi</h4>
     <ul>

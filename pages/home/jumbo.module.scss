@@ -1,7 +1,7 @@
 @use "../_variables" as *;
 
 .jumbo {
-  height: calc(100vh - 4.5rem); // Keep in sync with NavBar height
+  height: calc(100vh - $nav-bar-height);
   text-align: center;
   background-image: url("/Kivet.jpg");
   background-position: center;

@@ -255,7 +255,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^17.0.43":
+"@types/react-anchor-link-smooth-scroll@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@types/react-anchor-link-smooth-scroll@npm:1.0.2"
+  dependencies:
+    "@types/react": "*"
+  checksum: d51dac44563f38b14a32844e091fc0d206ce7d7db7154206346cfa9d99e4f5e6faa812302fd79459662974540db94d674458c010f1226260beef49eb9b9171a9
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:*, @types/react@npm:^17.0.43":
   version: 17.0.43
   resolution: "@types/react@npm:17.0.43"
   dependencies:
@@ -666,6 +675,13 @@ __metadata:
   version: 2.0.0
   resolution: "chownr@npm:2.0.0"
   checksum: c57cf9dd0791e2f18a5ee9c1a299ae6e801ff58fee96dc8bfd0dcb4738a6ce58dd252a3605b1c93c6418fe4f9d5093b28ffbf4d66648cb2a9c67eaef9679be2f
+  languageName: node
+  linkType: hard
+
+"classnames@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "classnames@npm:2.3.1"
+  checksum: 14db8889d56c267a591f08b0834989fe542d47fac659af5a539e110cc4266694e8de86e4e3bbd271157dbd831361310a8293e0167141e80b0f03a0f175c80960
   languageName: node
   linkType: hard
 
@@ -1947,11 +1963,14 @@ __metadata:
     "@fontsource/raleway": ^4.5.5
     "@types/node": ^17.0.23
     "@types/react": ^17.0.43
+    "@types/react-anchor-link-smooth-scroll": ^1.0.2
+    classnames: ^2.3.1
     eslint: 8.12.0
     eslint-config-next: 12.1.2
     gh-pages: ^3.2.3
     next: 12.1.2
     react: 18.0.0
+    react-anchor-link-smooth-scroll: ^1.0.12
     react-dom: 18.0.0
     sass: ^1.49.9
     typescript: ^4.6.3
@@ -2667,6 +2686,13 @@ __metadata:
   version: 1.2.3
   resolution: "queue-microtask@npm:1.2.3"
   checksum: b676f8c040cdc5b12723ad2f91414d267605b26419d5c821ff03befa817ddd10e238d22b25d604920340fd73efd8ba795465a0377c4adf45a4a41e4234e42dc4
+  languageName: node
+  linkType: hard
+
+"react-anchor-link-smooth-scroll@npm:^1.0.12":
+  version: 1.0.12
+  resolution: "react-anchor-link-smooth-scroll@npm:1.0.12"
+  checksum: 7639941e3d80644676e11fb066efca822a89a220c31876b96aeeda2b2fb433061be3583e6f157922cf932b7c74d037d57f0fc30658d7f00b5437b8ac557ac480
   languageName: node
   linkType: hard
 
