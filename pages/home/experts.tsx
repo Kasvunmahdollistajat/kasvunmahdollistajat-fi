@@ -1,3 +1,4 @@
+import { Element } from "react-scroll";
 import styles from "./experts.module.scss";
 
 type Partner = {
@@ -46,7 +47,7 @@ const Person = ({ imageSrc, name, title, linkedInUser, children }: Person) => (
 );
 
 const Experts = () => (
-  <div id="asiantuntijat" className={styles.experts}>
+  <Element name="asiantuntijat" className={styles.experts}>
     <h2>ASIANTUNTIJAT</h2>
     <p>
       Kasvun mahdollistajat Oy tekee aktiivista yhteistyötä eri alojen
@@ -109,7 +110,7 @@ const Experts = () => (
         verkostoissa.
       </p>
     </Person>
-  </div>
+  </Element>
 );
 
 export default Experts;
