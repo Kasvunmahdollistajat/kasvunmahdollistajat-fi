@@ -1,3 +1,4 @@
+import { Element } from "react-scroll";
 import styles from "./services.module.scss";
 
 const ServiceBox = ({ service }: { service: string }) => (
@@ -18,7 +19,7 @@ const serviceList = [
 ];
 
 const Services = () => (
-  <div className={styles.services} id="palvelut">
+  <Element name="palvelut" className={styles.services}>
     <h2>PALVELUT</h2>
     <h4>Autamme sinua ja organisaatiotasi</h4>
     <ul>
@@ -43,7 +44,7 @@ const Services = () => (
         hyödyn, mitä kussakin tilanteessa tarvitset.
       </p>
     </div>
-  </div>
+  </Element>
 );
 
 export default Services;
