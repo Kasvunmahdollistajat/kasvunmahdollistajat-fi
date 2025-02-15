@@ -1,8 +1,10 @@
+import Contact from "./home/contact";
 import Experts from "./home/experts";
 import Intro from "./home/intro";
 import Jumbo from "./home/jumbo";
 import Services from "./home/services";
 import Story from "./home/story";
+
 import styles from "./index.module.scss";
 
 const Home = () => {
@@ -14,10 +16,7 @@ const Home = () => {
         <Services />
         <Story />
         <Experts />
-        <h3>Miten voin olla sinulle avuksi? - Ota yhteyttä!</h3>
-        <span>
-          Päivi Vuorimaa - <strong>paivi.vuorimaa@gmail.com</strong>
-        </span>
+        <Contact />
       </div>
     </>
   );

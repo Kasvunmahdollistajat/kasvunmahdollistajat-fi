@@ -24,7 +24,7 @@ const Intro = () => (
       briljantti ammattilainen.
     </p>
     <p>
-      Hyödynnä Business Finlandin innovaatioseteli: Kasvun Mahdollistajat Oy on
+      Hyödynnä Business Finlandin innovaatioseteli: Kasvun mahdollistajat Oy on
       hyväksytty innovaatiosetelin palveluntuottaja. Hae innovaatioseteliä{" "}
       <a
         href="https://www.businessfinland.fi/suomalaisille-asiakkaille/palvelut/rahoitus/tutkimus-ja-kehitysrahoitus/innovaatioseteli/"

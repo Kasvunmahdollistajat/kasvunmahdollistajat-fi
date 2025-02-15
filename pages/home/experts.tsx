@@ -80,34 +80,42 @@ const Experts = () => (
     </div>
     <Person
       imageSrc="/paivi1.jpg"
-      name="Päivi Vuorimaa"
-      title="Innostunut ja innostava valmentaja, coach ja fasilitaattori"
+      name="Päivi"
+      title="Innostunut ja inspiroiva ammattimentori, valmentaja, coach ja fasilitaattori"
       linkedInUser="paivivuorimaa"
     >
       <p>
-        Missioni on auttaa organisaatioita ja niiden avainihmisiä onnistumaan
-        paremmin ja kasvamaan. Ydinosaamistani ovat valmentava johtaminen ja
-        näkemyksellinen toiminnan kehittäminen vastaamaan tarpeita tämän päivän
-        ja huomisen toimintaympäristössä. Olen kokenut strategiatyön ja
-        strategian toteuttamisen sparraaja. Oman tuoreen johtajakokemukseni
-        kautta tiedän, miten laajoja kehityshankkeita johdetaan ja miten koko
-        henkilöstö saadaan innostumaan ja uudistamaan toimintatapojaan. Autan
-        sinua, johtajia ja esimiehiä kehittymään johtajuudessa.
+        Missioni on auttaa organisaatioita ja niiden ihmisiä onnistumaan
+        paremmin työssään ja kasvamaan johtajuudessa. Ydinosaamistani ovat
+        valmentava johtaminen, esihenkilötyö, mentorointi ja näkemyksellinen
+        toiminnan kehittäminen vastaamaan tarpeita alati muuttuvassa
+        toimintaympäristössä. Olen erittäin kokenut strategiatyön ja strategian
+        toteuttamisen sparraaja sekä muutosjohtamisen ammattilainen. Oman
+        tuoreen johtajakokemukseni kautta tiedän, miten laajoja kehityshankkeita
+        johdetaan ja miten koko henkilöstö saadaan innostumaan ja uudistamaan
+        toimintatapojaan. Tuen sinua, johtajia ja esihenkilöitä kehittymään
+        inhimillisessä johtajuudessa.
       </p>
       <p>
         Työtapani on tavoitteellinen, konkreettinen ja energinen. Valmennusten
-        ja coachingin hyöty kytkeytyy suoraan käytäntöön. Ihmiset oivaltavat ja
-        innostuvat. Olen sekä näkemyksellinen visionääri että vahva käytännön
-        tekijä. Luontainen uteliaisuuteni ja haluni kehittyä ovat kuljettaneet
-        minua mitä moninaisempiin työrooleihin ja luottamustehtäviin. Siksi
-        tunnen laajalti erilaisia organisaatioita ja niiden tilanteita ja
-        tarpeita.
+        ja mentoroinnin pohdinnat ja oivallukset kytkeytyvät suoraan
+        osallistujien työhön. Olen sekä näkemyksellinen visionääri että vahva
+        käytännön tekijä. Luontainen uteliaisuuteni ja kehittymisen palo ovat
+        kuljettaneet minua mitä moninaisempiin työrooleihin ja
+        luottamustehtäviin. Tunnen laajasti erilaisia organisaatioita ja niiden
+        tilanteita ja tarpeita.
       </p>
       <p>
-        Vapaa-ajallani liikun luonnossa, käyn jumpassa ja reissaan niin
-        kotimaassa kuin maailmalla. Toimin aktiivisesti muutaman organisaation
-        hallituksessa sekä erilaisissa luottamustehtävissä ja laajoissa
-        verkostoissa.
+        Vapaa-ajallani liikun luonnossa, käyn zumbassa ja salilla ja reissaan
+        niin kotimaassa kuin maailmalla. Toimin aktiivisesti muutaman
+        organisaation hallituksessa sekä erilaisissa luottamustehtävissä ja
+        laajoissa verkostoissa.
+      </p>
+      <p>
+        Koulutus: KTM, Certified Business Mentor, Certified Business Coach,
+        Sertifioitu fasilitaattori, NLP Practitioner, RMP Motivaatiovalmentaja,
+        Henkilöstöjohtajan tutkinto, Tuotekehittäjän erikoisammattitutkinto,
+        Tiedottajan tutkinto MTi.
       </p>
     </Person>
   </Element>

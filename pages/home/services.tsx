@@ -10,9 +10,9 @@ const ServiceBox = ({ service }: { service: string }) => (
 const serviceList = [
   "Päivittämään strategian, kirkastamaan uuden suunnan ja toteuttamaan strategiaa koko organisaation voimin",
   "Varmistamaan tulevan muutoksen onnistumisen ja henkilöstön sitoutumisen",
-  "Muokkaamaan organisaation kulttuuria",
-  "Määrittelemään johtamistavan ja viemään sen käytäntöön",
-  "Nostamaan johtamisen ja johtoryhmätyön uudelle tasolle",
+  "Muokkaamaan organisaation kulttuuria ja käytäntöjä tavoiteltuun suuntaan",
+  "Määrittelemään johtamistavan ja konkretisoimaan sen esihenkilöiden käytännön työhön",
+  "Nostamaan johtamisen ja johtotiimityön uudelle tasolle",
   "Selkeyttämään omaa johtamistasi ja kasvamaan johtajuudessa",
   "Parantamaan vuorovaikutustaitoja",
   "Löytämään ratkaisuja kiperiin tilanteisiin",
@@ -28,20 +28,21 @@ const Services = () => (
       ))}
     </ul>
     <div className={styles.serviceWrapper}>
-      <ServiceBox service="KONSULTOINTI" />
+      <ServiceBox service="YKSILÖ- JA RYHMÄMENTOROINTI, TYÖNOHJAUS" />
+      <ServiceBox service="URAOHJAUS" />
       <ServiceBox service="VALMENNUS" />
-      <ServiceBox service="FASILITOINTI" />
-      <ServiceBox service="COACHING" />
+      <ServiceBox service="TYÖPAJOJEN JA KOKOUSTEN FASILITOINTI" />
     </div>
     <div>
       <p>
-        Tarjoamme tueksesi konsultointia, valmennusta, työpajojen ja kokousten
-        fasilitointia sekä yksilö- ja ryhmäcoachingia.
+        Tarjoamme tueksesi sekä henkilökohtaista että pienryhmissä tapahtuvaa
+        mentorointia, työnohjausta, uraohjausta, valmennusta sekä työpajojen ja
+        kokousten fasilitointia.
       </p>
       <p>
         Asiakkaan tilanne on aina uniikki. Siksi räätälöimme palvelumme
-        asiakkaalle tämän tilanteen ja tavoitteiden mukaisesti. Saat juuri sen
-        hyödyn, mitä kussakin tilanteessa tarvitset.
+        jokaiselle asiakkaalle tämän tilanteen ja tavoitteiden mukaisesti. Saat
+        täsmätoteutuksena juuri sen hyödyn, mitä kussakin tilanteessa tarvitset.
       </p>
     </div>
   </Element>
