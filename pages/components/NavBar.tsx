@@ -29,6 +29,7 @@ const NavBar = () => {
         <ScrollLink target={"palvelut"}>Palvelut</ScrollLink>
         <ScrollLink target={"tarina"}>Tarina</ScrollLink>
         <ScrollLink target={"asiantuntijat"}>Asiantuntijat</ScrollLink>
+        <ScrollLink target={"yhteys"}>Ota yhteyttä</ScrollLink>
       </div>
       <div className={styles.mobileMenu}>
         <img

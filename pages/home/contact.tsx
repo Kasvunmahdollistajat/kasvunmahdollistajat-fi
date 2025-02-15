@@ -1,6 +1,9 @@
+import styles from "./contact.module.scss";
+
 const Contact = () => {
   return (
-    <>
+    <div className={styles.contact}>
+      <h2 id="yhteys">OTA YHTEYTTÄ</h2>
       <p>
         Hankalia henkilöstötilanteita, muutoksia, uusi strategia? Tavoitteenasi
         seuraava askel urallasi vaiko uran suunta hukassa? kesken.
@@ -14,7 +17,31 @@ const Contact = () => {
         tunnin mentoroinnin etätoteutuksena. Arvomme saajan joka kuukauden
         ensimmäinen päivä kaikkien yhteydenottajien kesken.
       </p>
-    </>
+      <form action="https://formbold.com/s/9RdjX" method="POST">
+        <div className={styles.row}>
+          <div>
+            <label htmlFor="nimi">Nimi</label>
+            <input type="text" name="nimi" required />
+          </div>
+          <div>
+            <label htmlFor="email">Sähköposti</label>
+            <input type="email" name="email" required />
+          </div>
+        </div>
+        <label htmlFor="viesti">Viesti</label>
+        <textarea name="viesti" placeholder="Viestisi..." />
+        <div className={styles.checkboxWrapper}>
+          <input type="checkbox" name="markkinointilupa" defaultChecked />
+          <label htmlFor="markkinointilupa">
+            Minulle voi lähettää Kasvun&nbsp;mahdollistajat&nbsp;Oy:n
+            tiedotteita sähköpostitse
+          </label>
+        </div>
+        <div className={styles.buttonWrapper}>
+          <button type="submit">Lähetä</button>
+        </div>
+      </form>
+    </div>
   );
 };
 
