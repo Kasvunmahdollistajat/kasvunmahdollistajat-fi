@@ -1,0 +1,15 @@
+.storyWrapper {
+  margin-bottom: 4rem;
+}
+
+.storyWrapper:last-child {
+  margin-bottom: 0;
+}
+
+.story {
+  font-style: italic;
+}
+
+.person {
+  font-weight: bold;
+}

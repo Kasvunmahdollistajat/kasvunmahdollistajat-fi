@@ -17,19 +17,27 @@ const Contact = () => {
         tunnin mentoroinnin etätoteutuksena. Arvomme saajan joka kuukauden
         ensimmäinen päivä kaikkien yhteydenottajien kesken.
       </p>
-      <form action="https://formbold.com/s/9RdjX" method="POST">
+      <form
+        action="https://formbold.com/s/9RdjX"
+        method="POST"
+        id="contact-form"
+      >
         <div className={styles.row}>
           <div>
-            <label htmlFor="nimi">Nimi</label>
+            <label htmlFor="nimi">Nimi*</label>
             <input type="text" name="nimi" required />
           </div>
           <div>
-            <label htmlFor="email">Sähköposti</label>
-            <input type="email" name="email" required />
+            <label htmlFor="phone">Puhelinnumero</label>
+            <input type="text" name="phone" />
           </div>
         </div>
-        <label htmlFor="viesti">Viesti</label>
-        <textarea name="viesti" placeholder="Viestisi..." />
+        <div>
+          <label htmlFor="email">Sähköposti*</label>
+          <input type="email" name="email" required />
+        </div>
+        <label htmlFor="viesti">Viesti*</label>
+        <textarea name="viesti" placeholder="Viestisi..." required rows={5} />
         <div className={styles.checkboxWrapper}>
           <input type="checkbox" name="markkinointilupa" defaultChecked />
           <label htmlFor="markkinointilupa">

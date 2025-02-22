@@ -28,6 +28,9 @@
   font-weight: bold;
   min-width: 14rem;
   max-width: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media (max-width: 111rem) {

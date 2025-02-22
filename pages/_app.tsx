@@ -10,6 +10,7 @@ const App = ({ Component, pageProps }) => (
     <Head>
       <title>Kasvun mahdollistajat</title>
       <link rel="shortcut icon" href="/favicon.ico" />
+      <script async src="https://www.google.com/recaptcha/api.js" />
     </Head>
     <NavBar />
     <Component {...pageProps} />

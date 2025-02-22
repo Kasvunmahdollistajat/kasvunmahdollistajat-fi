@@ -28,7 +28,7 @@ const Services = () => (
       ))}
     </ul>
     <div className={styles.serviceWrapper}>
-      <ServiceBox service="YKSILÖ- JA RYHMÄMENTOROINTI, TYÖNOHJAUS" />
+      <ServiceBox service="MENTOROINTI, TYÖNOHJAUS" />
       <ServiceBox service="URAOHJAUS" />
       <ServiceBox service="VALMENNUS" />
       <ServiceBox service="TYÖPAJOJEN JA KOKOUSTEN FASILITOINTI" />

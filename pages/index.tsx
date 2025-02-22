@@ -1,4 +1,5 @@
 import Contact from "./home/contact";
+import CustomerStories from "./home/customerStories";
 import Experts from "./home/experts";
 import Intro from "./home/intro";
 import Jumbo from "./home/jumbo";
@@ -17,6 +18,7 @@ const Home = () => {
         <Story />
         <Experts />
         <Contact />
+        <CustomerStories />
       </div>
     </>
   );

@@ -1,7 +1,7 @@
 const Intro = () => (
   <div>
     <p>
-      Kasvun mahdollistajat Oy on palvelubisneksen ja johtamisen kehittäjä. Saat
+      Kasvun mahdollistajat Oy on johtamisen ja työyhteisöjen kehittäjä. Saat
       käyttöösi laajan osaamisemme, joka pohjautuu monipuoliseen käytännön
       kokemukseen mm. johtajan työstä eri organisaatioissa. Emme tee mitään
       vasemmalla kädellä. Paneudumme sinun ja organisaatiosi tilanteeseen
@@ -22,18 +22,6 @@ const Intro = () => (
     <p>
       Kasvun mahdollistajat Oy on kuin luottoystäväsi: luottamuksesi arvoinen
       briljantti ammattilainen.
-    </p>
-    <p>
-      Hyödynnä Business Finlandin innovaatioseteli: Kasvun mahdollistajat Oy on
-      hyväksytty innovaatiosetelin palveluntuottaja. Hae innovaatioseteliä{" "}
-      <a
-        href="https://www.businessfinland.fi/suomalaisille-asiakkaille/palvelut/rahoitus/tutkimus-ja-kehitysrahoitus/innovaatioseteli/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        täältä
-      </a>
-      .
     </p>
   </div>
 );

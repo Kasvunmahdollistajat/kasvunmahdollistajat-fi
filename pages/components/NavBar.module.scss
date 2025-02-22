@@ -45,6 +45,19 @@
   }
 }
 
+.animate {
+  animation: slideIn 0.2s ease-in;
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+}
+
 .visible {
   display: block;
 }
