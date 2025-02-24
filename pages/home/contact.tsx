@@ -1,27 +1,22 @@
-import styles from "./contact.module.scss";
+import styles from './contact.module.scss'
 
 const Contact = () => {
   return (
     <div className={styles.contact}>
       <h2 id="yhteys">OTA YHTEYTTÄ</h2>
       <p>
-        Hankalia henkilöstötilanteita, muutoksia, uusi strategia? Tavoitteenasi
-        seuraava askel urallasi vaiko uran suunta hukassa? kesken.
+        Hankalia henkilöstötilanteita, muutoksia, uusi strategia? Tavoitteenasi seuraava askel urallasi vaiko uran
+        suunta hukassa?
       </p>
       <p>
-        Otapa yhteyttä, niin jutellaan tarkemmin. Olemme sinuun yhteydessä parin
-        työpäivän sisällä. Sitoumuksetta, tottakai.
+        Otapa yhteyttä, niin jutellaan tarkemmin. Olemme sinuun yhteydessä parin työpäivän sisällä. Sitoumuksetta,
+        tottakai.
       </p>
       <p>
-        Tarjoamme joka kuukausi yhdelle onnekkaalle ilmaiseksi henkilökohtaisen
-        tunnin mentoroinnin etätoteutuksena. Arvomme saajan joka kuukauden
-        ensimmäinen päivä kaikkien yhteydenottajien kesken.
+        Tarjoamme joka kuukausi yhdelle onnekkaalle ilmaiseksi henkilökohtaisen tunnin mentoroinnin etätoteutuksena.
+        Arvomme saajan joka kuukauden ensimmäinen päivä kaikkien yhteydenottajien kesken.
       </p>
-      <form
-        action="https://formbold.com/s/9RdjX"
-        method="POST"
-        id="contact-form"
-      >
+      <form action="https://formbold.com/s/9RdjX" method="POST" id="contact-form">
         <div className={styles.row}>
           <div>
             <label htmlFor="nimi">Nimi*</label>
@@ -41,8 +36,7 @@ const Contact = () => {
         <div className={styles.checkboxWrapper}>
           <input type="checkbox" name="markkinointilupa" defaultChecked />
           <label htmlFor="markkinointilupa">
-            Minulle voi lähettää Kasvun&nbsp;mahdollistajat&nbsp;Oy:n
-            tiedotteita sähköpostitse
+            Minulle voi lähettää Kasvun&nbsp;mahdollistajat&nbsp;Oy:n tiedotteita sähköpostitse
           </label>
         </div>
         <div className={styles.buttonWrapper}>
@@ -50,7 +44,7 @@ const Contact = () => {
         </div>
       </form>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

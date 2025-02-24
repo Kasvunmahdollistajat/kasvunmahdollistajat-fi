@@ -1,22 +1,22 @@
-import { Element } from "react-scroll";
-import styles from "./services.module.scss";
+import { Element } from 'react-scroll'
+import styles from './services.module.scss'
 
 const ServiceBox = ({ service }: { service: string }) => (
   <div className={styles.serviceBox}>
     <span>{service}</span>
   </div>
-);
+)
 
 const serviceList = [
-  "Päivittämään strategian, kirkastamaan uuden suunnan ja toteuttamaan strategiaa koko organisaation voimin",
-  "Varmistamaan tulevan muutoksen onnistumisen ja henkilöstön sitoutumisen",
-  "Muokkaamaan organisaation kulttuuria ja käytäntöjä tavoiteltuun suuntaan",
-  "Määrittelemään johtamistavan ja konkretisoimaan sen esihenkilöiden käytännön työhön",
-  "Nostamaan johtamisen ja johtotiimityön uudelle tasolle",
-  "Selkeyttämään omaa johtamistasi ja kasvamaan johtajuudessa",
-  "Parantamaan vuorovaikutustaitoja",
-  "Löytämään ratkaisuja kiperiin tilanteisiin",
-];
+  'Päivittämään strategian, kirkastamaan uuden suunnan ja toteuttamaan strategiaa koko organisaation voimin',
+  'Varmistamaan tulevan muutoksen onnistumisen ja henkilöstön sitoutumisen',
+  'Muokkaamaan organisaation kulttuuria ja käytäntöjä tavoiteltuun suuntaan',
+  'Määrittelemään johtamistavan ja konkretisoimaan sen esihenkilöiden käytännön työhön',
+  'Nostamaan johtamisen ja johtotiimityön uudelle tasolle',
+  'Selkeyttämään omaa johtamistasi ja kasvamaan johtajuudessa',
+  'Parantamaan vuorovaikutustaitoja',
+  'Löytämään ratkaisuja kiperiin tilanteisiin',
+]
 
 const Services = () => (
   <Element name="palvelut" className={styles.services}>
@@ -29,23 +29,21 @@ const Services = () => (
     </ul>
     <div className={styles.serviceWrapper}>
       <ServiceBox service="MENTOROINTI, TYÖNOHJAUS" />
-      <ServiceBox service="URAOHJAUS" />
-      <ServiceBox service="VALMENNUS" />
       <ServiceBox service="TYÖPAJOJEN JA KOKOUSTEN FASILITOINTI" />
+      <ServiceBox service="VALMENNUS" />
+      <ServiceBox service="URAOHJAUS" />
     </div>
     <div>
       <p>
-        Tarjoamme tueksesi sekä henkilökohtaista että pienryhmissä tapahtuvaa
-        mentorointia, työnohjausta, uraohjausta, valmennusta sekä työpajojen ja
-        kokousten fasilitointia.
+        Tarjoamme tueksesi sekä henkilökohtaista että pienryhmissä tapahtuvaa mentorointia, työnohjausta, uraohjausta,
+        valmennusta sekä työpajojen ja kokousten fasilitointia.
       </p>
       <p>
-        Asiakkaan tilanne on aina uniikki. Siksi räätälöimme palvelumme
-        jokaiselle asiakkaalle tämän tilanteen ja tavoitteiden mukaisesti. Saat
-        täsmätoteutuksena juuri sen hyödyn, mitä kussakin tilanteessa tarvitset.
+        Asiakkaan tilanne on aina uniikki. Siksi räätälöimme palvelumme jokaiselle asiakkaalle tämän tilanteen ja
+        tavoitteiden mukaisesti. Saat täsmätoteutuksena juuri sen hyödyn, mitä kussakin tilanteessa tarvitset.
       </p>
     </div>
   </Element>
-);
+)
 
-export default Services;
+export default Services
